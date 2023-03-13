@@ -31,7 +31,7 @@ body {
 }
 
 main {
-  width: 1600px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +41,7 @@ main {
 .banner {
   background-image: url(./assets/header/image\ 1.png);
   height: 900px;
-  width: 1600px;
+  width: 100%;
 }
 
 .banner-sliders {
@@ -72,8 +72,8 @@ main {
   border: none;
   cursor: pointer;
   background-color: transparent;
-
 }
+
 .banner-title h1  {
   font-family: 'Playfair Display', serif;
   font-size: 80px;
@@ -85,7 +85,6 @@ main {
   color: var(--texto-branco);
   margin-bottom: 0;
   margin-top: 0;
-
 }
 
 .banner-title h3 {
@@ -113,7 +112,6 @@ main {
   display: inline;
   align-items: baseline;
   margin-bottom: 125px;
-
 }
 
 .highlights {
@@ -140,43 +138,40 @@ main {
 }
 
 .highlihgt img {
-  width: 604px;
-  height: 460px;
+  width: 560px;
+  height: 448px;
 }
 
 .highlihgt h2 {
   color: var(--texto-preto);
   font-size: 56px;
   font-family: 'Playfair Display', serif;
-
 }
 
-.variedades h2 {
+.variedades {
   color: var(--texto-titulo);
   font-size: 56px;
   font-family: 'Playfair Display', serif;
   line-height: 60px;
   font-weight: 700;
   margin-left: 80px;
-  justify-items: left;
-
+  margin-right: 480px;
+  display: flex;
+  justify-content: left;
 }
 
 .highlihgt p {
   font-size: 32px;
   width: 450px;
-
 }
 
 .varieties {
-  width: 1600px;
+  width: 100%;
   height: 950px;
   display: flex;
   flex-flow:  row wrap;
   justify-content: space-evenly;
   background-color: #F5F5F5;
-
-
 }
 
 .varieties h2 {
@@ -201,7 +196,6 @@ main {
   justify-content: center;
   border-radius: 8px;
   margin-bottom: 32px;
-
 }
 
 .variety-cards img {
@@ -228,7 +222,6 @@ main {
   font-weight: 800;
   margin-top: 32px;
   justify-content: center;
-
 }
 
 .variety-cards span {
@@ -238,7 +231,6 @@ main {
   margin: 10px;
   justify-content: center;
   margin-top: 32px;
-
 }
 
 .variety-cards button {
@@ -252,7 +244,6 @@ main {
   cursor: pointer;
   margin-bottom: 32px;
   justify-content: center;
-
 }
 
 .mid-section {
@@ -266,13 +257,12 @@ main {
 }
 
 .benefits {
-  width: 1600px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   background-color: var(--background);
-  
 }
 
 .benefits img {
@@ -283,46 +273,54 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 60px;
-  margin-left: 120px;
+  margin-left: 80px;
 }
 
 .benefits p {
   line-height: 26px;
-  max-width: 252px;
+  
   font-size: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  align-items: baseline;
+  justify-content: baseline;
   margin-top: 15px;
-  margin-left: 120px;
-  margin-left: 120px;
+  margin-right: 80px;
+  margin-left: 80px;
   margin-bottom: 20px;
 }
 
 .opcoes {
   width: 100%;
-  height: 560px;
+ 
   display: flex;
   flex-direction: row;
- 
-
 }
 
-.options {
+.options-one {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  width: 604px;
-  height: 460px;
+  width: 660px;
+  height: 448px;
   background-image: url(./assets/icons/Rectangle\ 20img\ catalogo.png);
   position: relative;
-  margin: 80px;
-
+  margin: 60px 20px 120px 80px;
 }
 
-.options h2 {
+.options-two {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 660px;
+  height: 448px;
+  background-image: url(./assets/icons/Rectangle\ 20img\ acessorios.png);
+  position: relative;
+  margin: 60px 80px 20px 20px;
+}
+
+.opcoes h2 {
   font-family: 'Playfair Display';
   font-size: 56px;
   font-weight: 700;
@@ -332,11 +330,11 @@ main {
   align-items: flex-end;
   color: var(--texto-foto);
   position: absolute;
-  margin-top: 320px;
-  margin-left: 40px;
+  margin-top: 280px;
+  margin-left: 20px;
 }
 
-.options p {
+.opcoes p {
   font-family: 'Open Sans';
   font-size: 20px;
   font-weight: 300;
@@ -345,22 +343,20 @@ main {
   color: var(--texto-foto);
   position: absolute;
   flex-direction: column;
-  margin-top: 400px;
-  margin-left: 40px;
+  margin-top: 360px;
+  margin-left: 20px;
 }
 
 
 
 .find-store {
-  width: 1600px;
+  width: 100%;
   height: 800px;
   background-color: var(--texto-branco);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   position: relative;
-
-  
 }
 
 .encontre h2 {
@@ -401,7 +397,7 @@ main {
   display: flex;
   flex-direction: row;
   align-content: flex-end;
-  width: 946px;
+  width: 708px;
   height: 73px;
   margin: 148px 571px 576px 20px;
   border: 2px solid var(--texto-preto);
@@ -414,7 +410,6 @@ main {
   background-size: 18px;
   background-position: right;
   position: absolute;
-  
 }
 
 .mapa {
@@ -426,11 +421,10 @@ main {
 
 
 footer {
-  width: 1600px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   background-color: var(--card-background);
-  
 }
 
 .brand {
@@ -450,19 +444,20 @@ footer {
   margin-right: 12px;
 }
 
-.rodape-coluna p {
+.rodape-coluna h6 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
   font-size: 20px;
   color: var(--texto-footer);
   margin-top: 40px;
   margin-bottom: 15px;
-
 }
 
 .rodape-coluna a {
   font-size: 20px;
   text-decoration: none;
   color: var(--texto-footer);
-
 }
 
 .rodape-coluna img {
@@ -499,11 +494,9 @@ li {
   font-size: 20px;
   line-height: 28px;
   margin: 0;
-
 }
 
 .creditos img {
   margin-left: 6px;
   width: 200px;
-
 }
