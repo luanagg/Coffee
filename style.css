@@ -66,8 +66,8 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-right: 85px;
   margin-left: 85px;
+  margin-bottom: 0;
   height: 18px;
   border: none;
   cursor: pointer;
@@ -84,7 +84,7 @@ main {
   margin: 80px;
   color: var(--texto-branco);
   margin-bottom: 0;
-  margin-top: 0;
+  margin-top: -40px;
 }
 
 .banner-title h3 {
@@ -103,15 +103,21 @@ main {
 
 .banner-arrows {
   margin-left: 80px;
+  display: inline-flex;
+  gap: 20px;
+  
 }
 
 .banner-arrows img {
-  width: 32px;
+  width: 48px;
+  height: 48px;
   cursor: pointer;
   background-color: transparent;
-  display: inline;
+  
   align-items: baseline;
-  margin-bottom: 125px;
+  justify-content: space-between;
+  margin-bottom: 104px;
+
 }
 
 .highlights {
@@ -158,6 +164,7 @@ main {
   margin-right: 480px;
   display: flex;
   justify-content: left;
+  margin-bottom: 64px;
 }
 
 .highlihgt p {
@@ -195,6 +202,8 @@ main {
   align-items: center;
   justify-content: center;
   border-radius: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 32px;
 }
 
@@ -242,7 +251,7 @@ main {
   background-color: var(--texto-preto);
   color: var(--texto-branco);
   cursor: pointer;
-  margin-bottom: 32px;
+  margin-bottom: 10px;
   justify-content: center;
 }
 
@@ -257,37 +266,40 @@ main {
 }
 
 .benefits {
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   background-color: var(--background);
+  
+  
 }
 
 .benefits img {
   width: 60px;
   height: 40px;
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 60px;
-  margin-left: 80px;
+  padding: 20px;
+  
 }
 
 .benefits p {
+  width: 120px;
+  height: 50px;
   line-height: 26px;
-  
   font-size: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: baseline;
-  margin-top: 15px;
-  margin-right: 80px;
-  margin-left: 80px;
+  align-items: center;
+  justify-content: center;
+
+ 
   margin-bottom: 20px;
 }
 
@@ -306,7 +318,7 @@ main {
   height: 448px;
   background-image: url(./assets/icons/Rectangle\ 20img\ catalogo.png);
   position: relative;
-  margin: 60px 20px 120px 80px;
+  margin: 60px 20px 160px 80px;
 }
 
 .options-two {
@@ -382,8 +394,11 @@ main {
 }
 .find-store-estados select {
   border: none;
-  align-content: space-around;
+  align-content: center;
   justify-content: center;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 420px;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
@@ -408,7 +423,7 @@ main {
   background-image: url("./assets/frame/Vectorsearch.svg");
   background-repeat: no-repeat;
   background-size: 18px;
-  background-position: right;
+  background-position: center right 30px;
   position: absolute;
 }
 
